@@ -1,0 +1,479 @@
+/**** index page ****/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../img/paper.png") no-repeat center center fixed; 
+	background-size: cover;
+	height: 100%;
+}
+
+@font-face {
+	font-family: 'My Underwood';
+	src: url('../fonts/MyUnderwood.ttf');
+}
+
+@font-face {
+	font-family: 'Magnolia light';
+	src: url('../fonts/Magnolia-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Harabara';
+	src: url('../fonts/Harabara.ttf');
+}
+
+.body {
+	height: 100%;
+	min-height: 100%;
+	margin-top: 80px;
+	margin-bottom: -70px;
+}
+
+.body h2 {
+	color:red;
+	text-align: center;
+	font-family: Harabara, Magnolia light, Noteworthy Light, Savoye LET Plain, Georgia, sans-serif;
+	text-transform: uppercase;
+	font-size: 4em;
+}	
+
+.body p {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+.body h3 {
+	float: right;
+	padding-right: 60px;
+	font-family: Magnolia light, Zapfino Regular, Georgia, serif;
+	font-size: 2.5em;
+	min-width: 50%;
+	text-align: right;
+}
+
+#contact li {
+  position: relative;
+	display: block;
+	float: left;
+	list-style-type: none;
+	min-width: 15em;
+	margin-left: 50px;
+	top: 10px;
+	left: 8%;
+	text-align: center;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+#contact li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact li a:hover {
+	color: #F00;
+}
+
+a.selected {
+	background: #fff70d;
+}
+
+.footer {
+	position: relative;
+	margin-top: 20px;
+	height: 100px;
+	clear: both;
+	margin: 160px 60px 20px 10px;
+}
+
+/**** background page ****/
+
+.body1 { 
+	height: 100%;
+	min-height: 100%;
+	overflow: auto;
+	padding-bottom: 80px; 
+}
+
+.box1 {
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+	background: url("../img/confidential.gif") no-repeat center center; 
+	background-size: 65%;
+}
+
+#alias {
+	position: relative;
+	float: left;
+	margin: 40px 10px 0 65px;
+}
+
+#pic img {
+	float: right;
+	min-width: 8px;
+	margin-top: -10px;
+	border-style: none;
+}
+
+.location {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 15px;
+	left: 200px;
+	top:  70px;
+	background-color: black;
+}
+
+.date {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 15px;
+	left: 190px;
+	top: 130px;
+	background-color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+.main_body {
+	position: relative;
+	display: inline-block;
+	margin: 0 15px 0 40px;
+}
+
+.main_body h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.main_body p {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+#bold {
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+p:nth-child(7) {
+	text-align: center;
+	font-weight: 100;
+	font-size: 75%;
+}
+
+#contact1 li {
+  position: relative;
+	display: block;
+	float: left;
+	list-style-type: none;
+	min-width: 15em;
+	margin-left: 15px;
+	top: 30px;
+	left: 8%;
+	text-align: center;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+#contact1 li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact1 li a:hover {
+	color: red;
+}
+
+a.selected {
+	color: red;
+	background: #fff70d;
+}
+
+.footer1 {
+	position: relative;
+	margin-top: -80px;
+	height: 100px;
+	clear: both;
+}
+	
+/**** assignments page ****/
+
+.box2 {
+	background: url(../img/confidential.gif);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 30px;
+	left: 30px;
+}
+
+.body2 {
+	height: 100%;
+	min-height: 100%;
+	overflow: auto;
+}
+
+.header2 h2 {
+	position: relative;  
+  font-family: My Underwood, Futura, Georgia, Arial, sans-serif;
+	font-size: 2.4em;
+	margin-left: 20px;
+}
+
+#main-body li {
+	float: left;
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+img {
+	border: 3px solid black;
+	margin: 30px 30px 0 0;
+}
+
+#contact2 li {
+  position: relative;
+	display: block;
+	float: left;
+	list-style-type: none;
+	min-width: 8em;
+	margin-left: 130px;
+	top: 30px;
+	left: 10%;
+	text-align: center;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+#contact2 li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact2 li a:hover {
+	color: red;
+}
+
+a.selected {
+	color: red;
+	background: #fff70d;
+}
+
+.footer2 {
+	position: relative;
+	height: 150px;
+	clear: both;
+	margin: -150px 120px 0 -160px;
+}
+
+/**** contacts page ****/
+
+.box3 {
+	background: url(../img/confidential.gif);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 50px;
+  top: 20px;	
+	font-family: My Underwood, Futura, Georgia, Arial, sans-serif;
+}
+
+.header3 h2 {
+	position: relative;
+	margin-left: 10px;
+}
+
+.body3 {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.body3 h4 {
+	margin: 30px 0;
+}
+
+.body3 a {
+	text-decoration: none;
+	color: black;
+}
+
+#info {
+	position: relative;
+	float: left;
+	margin: 30px 0 0 10px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#map {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin: 2px 60px 0 0;
+	border: 2px solid black;
+}
+
+#contact3 li {
+  position: relative;
+	display: block;
+	float: left;
+	list-style-type: none;
+	min-width: 12em;
+	margin-left: 45px;
+	top: 10px;
+	left: 8%;
+	text-align: center;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+#contact3 li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact3 li a:hover {
+	color: #F00;
+}
+
+#info a:hover {
+	color: red;
+}
+
+a.selected {
+	background: #FFF70D;
+}
+
+.footer3 {
+	display: inline-block;
+	position: relative;
+	bottom: 200px;
+	margin-right: 70px;
+}	
+
+            /****** FAQ *******/
+
+
+.box4 {
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+	/*background: url("../img/confidential.gif") no-repeat center center; 
+	background-size: 65%;*/
+	width: 100%;
+	height: 100%;
+}
+
+.box4 h2 {
+  padding: 20px 60px;
+}
+
+.body4 {
+	height: 100%;
+	min-height: 100%;
+	overflow: auto;
+	padding-bottom: 80px; 
+}
+
+.body4 p {
+	font-size: 1.4em;
+	padding-left: 60px;
+	margin-right: 10px;
+}
+
+.panel-group {
+	padding-left: 80px;
+	font-size: 1em;
+	width: 70%;
+}
+
+.panel-body p {
+	background-color: #fff70d;
+}
+
+#contact4 li {
+  position: relative;
+	display: block;
+	float: left;
+	list-style-type: none;
+	min-width: 12em;
+	margin-left: 45px;
+	top: 10px;
+	left: 8%;
+	text-align: center;
+	font-family: My Underwood, Futura, Georgia, Arial, serif;
+}
+
+a.panel-heading {
+	display: block;
+}	
+.panel-primary .panel-heading[aria-expanded="true"], .panel-primary .panel-heading a:hover, .panel-primary .panel-heading a:focus, .panel-primary a.panel-heading:hover, .panel-primary a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-danger .panel-heading[aria-expanded="true"], .panel-danger .panel-heading a:hover, .panel-danger .panel-heading a:focus, .panel-danger a.panel-heading:hover, .panel-danger a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-default .panel-heading[aria-expanded="true"], .panel-default .panel-heading a:hover, .panel-default .panel-heading a:focus, .panel-default a.panel-heading:hover, .panel-default a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-info .panel-heading[aria-expanded="true"], .panel-info .panel-heading a:hover, .panel-info .panel-heading a:focus, .panel-info a.panel-heading:hover, .panel-info a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-success .panel-heading[aria-expanded="true"], .panel-success .panel-heading a:hover, .panel-success .panel-heading a:focus, .panel-success a.panel-heading:hover, .panel-success a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-warning .panel-heading[aria-expanded="true"], .panel-warning .panel-heading a:hover, .panel-warning .panel-heading a:focus, .panel-warning a.panel-heading:hover, .panel-warning a.panel-heading:focus {
+	background-color: #ff0000;
+}
+.panel-group .panel, .panel-group .panel-heading {
+	border: black !important;
+}
+.panel-group .panel-body {
+	border: 1px solid #ddd !important;
+	border-width: 0 1px 1px 1px !important;
+}
+.panel-group .panel-heading a, .panel-group a.panel-heading {
+	outline: 0;
+}
+.panel-group .panel-heading a:hover, .panel-group .panel-heading a:focus, .panel-group a.panel-heading:hover, .panel-group a.panel-heading:focus {
+	text-decoration: none;
+}
+.panel-group .panel-heading .icon-indicator {
+	margin-right: 10px;
+}
+.panel-group .panel-heading .icon-indicator:before {
+	content: "\e114";
+}
+.panel-group .panel-heading.collapsed .icon-indicator:before {
+	content: "\e080";
+}
+
+#contact4 li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact4 li a {
+	text-decoration: none; 
+	color: black;
+}
+
+#contact4 li a:hover {
+	color: #F00;
+}
+
+a.selected {
+	background: #FFF70D;
+}
+
+.footer4 {
+	position: static;
+	display: inline-block;
+	position: relative;
+	bottom: 50px;
+	margin-right: 70px;
+}	
